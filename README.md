@@ -35,6 +35,12 @@ $ npm install
 ## Compile and run the project
 
 ```bash
+# generate the model
+npx prisma generate
+
+# migrate the database
+npx prisma migrate dev --name init
+
 # development
 $ npm run start
 
